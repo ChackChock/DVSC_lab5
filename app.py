@@ -1,3 +1,6 @@
 class App:
     def __init__(self) -> None:
         ...
+
+    def run(self) -> None:
+        ...
