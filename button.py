@@ -15,4 +15,4 @@ class Button:
             print("mouse in")
 
     def render(self) -> None:
-        print(f"{self} is drawing")
+        print(f"{self} class <Button> is drawing")
