@@ -9,3 +9,4 @@ class App:
     def run(self) -> None:
         while self.running:
             self.button.update([100, 100])
+            self.button.render()
