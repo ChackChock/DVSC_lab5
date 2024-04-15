@@ -17,7 +17,7 @@ class Button:
             self.hovered = True
 
         if mouse_state == "pressed" and self.hovered:
-            print(f"{self} is clicked!")
+            print(f"{self} class <Button> is clicked!")
 
     def render(self) -> None:
         print(f"{self} class <Button> is drawing")
