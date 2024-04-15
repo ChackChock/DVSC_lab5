@@ -8,13 +8,14 @@ class Button:
             self.center[0] - self.size[0] / 2
             <= mouse_coords[0]
             <= self.center[0] + self.size[0] / 2
-            and self.center[1] - self.size[1] / 2
+        ) and (
+            self.center[1] - self.size[1] / 2
             <= mouse_coords[1]
             <= self.center[1] + self.size[1] / 2
         ):
-            print(f"{self} mouse in")
+            print(f"{self} class <Button> mouse in")
         else:
-            print(f"{self} mouse out")
+            print(f"{self} class <Button> mouse out")
 
     def render(self) -> None:
-        print(f"{self} is drawing")
+        print(f"{self} class <Button> is drawing")
