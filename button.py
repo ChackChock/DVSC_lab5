@@ -13,6 +13,8 @@ class Button:
             <= self.center[1] + self.size[1] / 2
         ):
             print("mouse in")
+        else:
+            print("mouse out")
 
     def render(self) -> None:
         print(f"{self} is drawing")
