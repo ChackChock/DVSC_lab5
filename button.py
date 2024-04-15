@@ -1,3 +1,9 @@
 class Button:
     def __init__(self) -> None:
         ...
+
+    def update(self) -> None:
+        ...
+
+    def render(self) -> None:
+        ...
