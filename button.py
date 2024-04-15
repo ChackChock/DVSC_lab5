@@ -14,4 +14,5 @@ class Button:
         ):
             print("mouse in")
 
-    def render(self) -> None: ...
+    def render(self) -> None:
+        print(f"{self} is drowing")
