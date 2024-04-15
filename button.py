@@ -12,9 +12,9 @@ class Button:
             <= mouse_coords[1]
             <= self.center[1] + self.size[1] / 2
         ):
-            print(f"{self} mouse in")
+            print(f"{self} class <Button> mouse in")
         else:
-            print(f"{self} mouse out")
+            print(f"{self} class <Button> mouse out")
 
     def render(self) -> None:
-        print(f"{self} is drawing")
+        print(f"{self} class <Button> is drawing")
