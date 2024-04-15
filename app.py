@@ -5,7 +5,7 @@ class App:
     def __init__(self) -> None:
         self.running = True
         self.button1 = Button([50, 75], [100, 100])
-        self.button2 = Button([50, 75], [100, 100])
+        self.button2 = Button([100, 275], [50, 50])
 
     def run(self) -> None:
         while self.running:
