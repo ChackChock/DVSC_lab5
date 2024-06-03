@@ -6,6 +6,6 @@ class App:
         self.running = True
         self.button = Button([50, 75], [100, 100])
 
-    def run(self) -> None:
+    def start(self) -> None:
         while self.running:
             self.button.update([100, 100])
